@@ -6,6 +6,12 @@ Package Repository Website for Composer, see the [about page](http://packagist.o
 Installation
 ------------
 
+Use Vagrant & Chef (this will setup a full functional development environment including search/solr[not yet] in a virtual box)
+- Clone the repository
+- run `vagrant up`
+- Open http://localhost:8080 in your browser
+
+Or the traditional way:
 - Clone the repository
 - Run `bin/vendors install` to get all the vendors.
 - Copy `app/config/parameters.yml.dist` to `app/config/parameters.yml` and edit the relevant values for your setup.

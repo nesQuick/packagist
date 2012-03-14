@@ -8,3 +8,4 @@ vendor/
 /.settings
 /.buildpath
 /.project
+.vagrant
